@@ -13,7 +13,6 @@ public class problem02 {
 				+ "\n2. Use formula in meters and kilograms."
 				+ "\nEnter 1 or 2 to select a formula.\n");
 		option = scnr.nextInt();
-		int i = 0;
 		
 		if (option == 1) {
 			System.out.println("Enter height in inches:");
@@ -50,6 +49,6 @@ public class problem02 {
 					"Overweight = 25–29.9\r\n" + 
 					"Obesity = BMI of 30 or greater\n");
 		}
-		i++;
+		scnr.close();
 	}
 }

@@ -19,6 +19,8 @@ public class encrypt {
 		System.out.print("Enter number 4:");
 		num4 = scnr.nextInt();
 		
+		scnr.close();
+		
 		num1 += 7;
 		num2 += 7;
 		num3 += 7;
@@ -29,12 +31,10 @@ public class encrypt {
 		num3 = num3 % 10;
 		num4 = num4 % 10;
 		
-		int temp1, temp2, temp3, temp4;
+		int temp1, temp2;
 		
 		temp1 = num1;
 		temp2 = num2;
-		temp3 = num3;
-		temp4 = num4;
 		
 		num1 = num3;
 		num3 = temp1;

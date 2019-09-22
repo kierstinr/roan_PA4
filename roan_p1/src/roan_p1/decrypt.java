@@ -21,6 +21,8 @@ public class decrypt {
 		System.out.print("Enter number 4:");
 		num4 = scnr.nextInt();
 		
+		scnr.close();
+		
 		int temp1, temp2;
 		
 		temp1 = num1;

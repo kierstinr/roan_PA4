@@ -215,6 +215,8 @@ public class problem03 {
 				System.out.print("   " + avg5);
 			
 			System.out.println();
+			
+			scnr.close();
 		}
 	}
 }
